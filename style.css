@@ -92,7 +92,8 @@ nav a {
     background: #f4f4f4;
     padding: 30px;
     border-radius: 10px;
-    width: 280px;
+    width: 90%;
+    margin-bottom:20px;
 }
 
 .end {
@@ -114,3 +115,4 @@ footer {
 
 
          
+
