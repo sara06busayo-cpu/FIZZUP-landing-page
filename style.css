@@ -70,7 +70,7 @@ nav a {
 }
 
 @keyframes float {
-    0%, 100% { transform: translateY(0); }
+    100% { transform: translateY(0); }
     50% { transform: translateY(-20px); }
 }
 
@@ -79,11 +79,6 @@ nav a {
     background: white;
     color: #057e36;
     text-align: center;
-}
-
-.features h2 {
-    margin-bottom: 40px;
-    font-size: 36px;
 }
 
 .feature-box {
@@ -116,22 +111,3 @@ footer {
 }
 
 /* Mobile Responsive Fix for Features Section */
-@media screen and (max-width: 768px) {
-  .feature-box {
-    flex-direction: column;   /* stack features vertically */
-    align-items: center;      /* center the stacked items */
-  }
-
-  .feature {
-    width: 90%;               /* make each feature take most of the screen */
-    margin-bottom: 20px;      /* space between stacked features */
-  }
-
-  .features {
-    padding: 50px 5%;         /* reduce top/bottom and side padding */
-  }
-
-  .features h2 {
-    font-size: 28px;          /* smaller heading on phone */
-  }
-}
